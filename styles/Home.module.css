@@ -36,3 +36,32 @@
 .blocks_top {
   color: #6246EA;
 }
+
+.container_blocks_locations {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 7rem 2.5rem 7rem;
+}
+
+.container_blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6.25rem 7rem 0 7rem;
+}
+
+.title_blocks {
+  font-size: 2rem;
+  color: #121214;
+  line-height: 2.75rem;
+  font-weight: 700;
+}
+
+.button_blocks {
+  width: 140px;
+  background-color: #6246EA;
+  color: #FFFFFF;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}

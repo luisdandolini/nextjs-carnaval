@@ -2,19 +2,6 @@ import form from '../styles/Form.module.css'
 import Image from 'next/image'
 
 export default function Form() {
-
-  function MyImage(src: any, alt: any) {
-    return (
-      <Image
-        src={src}
-        alt={alt}
-        width={24}
-        height={24}
-        className={form.icon}
-      />
-    )
-  }
-
   return(
     <div className={form.container_form}>
     <form className={form.form}>
